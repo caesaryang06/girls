@@ -1,0 +1,8 @@
+#开发配置
+server:
+  port: 8081
+girls:
+  cupSize: B
+  age: 12
+
+

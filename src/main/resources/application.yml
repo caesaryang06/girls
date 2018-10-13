@@ -1,8 +1,4 @@
-server:
-  port: 8080
-
-cupSize: D
-age: 12
-content: "cupSize: ${cupSize}, age: ${age}"
-
-
+#配置当前项目要使用的配置文件
+spring:
+  profiles:
+    active: dev
