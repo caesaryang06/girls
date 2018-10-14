@@ -2,3 +2,13 @@
 spring:
   profiles:
     active: dev
+  #在这里配置的在其他两个配置文件中都会生效
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://192.168.1.139:3306/springcloud?characterEncoding=utf-8&useSSL=false
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true     #日志中会打印sql   方便我们调试
